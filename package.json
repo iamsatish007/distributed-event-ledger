@@ -6,7 +6,8 @@
     "start:command": "ts-node src/command-api/index.ts",
     "start:query": "ts-node src/query-api/index.ts",
     "start:worker": "ts-node src/workers/index.ts",
-    "start:projector": "ts-node src/projector/index.ts"
+    "start:projector": "ts-node src/projector/index.ts",
+    "test:load": "ts-node scripts/load-test.ts"
   },
   "repository": {
     "type": "git",
